@@ -1,0 +1,10 @@
+    <%if(typeof products!=='undefined'){%>
+        <% products.forEach((product) => { %>
+            <h3><a href="/products/<%=product.id%>"><%= product.model +" "+product.color+" "+product.size%></a></h3>
+        <% }) %>
+    <%}else{%>
+        <h1>Nie znaleziono takiego produktu</h1>
+    <%}%>
+
+
+

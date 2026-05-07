@@ -1,0 +1,11 @@
+    <%if(typeof products!=='undefined'){%>
+        <a href="/products">Wróć do listy produktów</a>
+        <%Object.entries(products).forEach((jacket)=>{%>
+            <h3><%=jacket[1]%></h3>
+        <%})%>
+    <%}else{%>
+        <h1>Nie znaleziono takiego produktu</h1>
+    <%}%>
+
+
+
