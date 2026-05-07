@@ -1,0 +1,26 @@
+{
+  "name": "bukowski-jacket-finder",
+  "version": "1.0.0",
+  "description": "bukowski-jacket-finder",
+  "homepage": "https://github.com/wojbuk3335/bukowski-jacket-finder#readme",
+  "bugs": {
+    "url": "https://github.com/wojbuk3335/bukowski-jacket-finder/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wojbuk3335/bukowski-jacket-finder.git"
+  },
+  "license": "ISC",
+  "author": "Wojciech Bukowski",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev":"nodemon"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
